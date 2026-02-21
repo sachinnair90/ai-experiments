@@ -21,7 +21,7 @@ public class BasicAgent : ISubApplication
     var name = "BasicAgent";
     // expose identity for Program discovery
     this.AppName = nameof(BasicAgent);
-    this.AppDescription = "Basic demo agent using Azure OpenAI via Agent SDK.";
+    this.AppDescription = "Basic demo agent using Azure OpenAI via MS Agent Framework SDK.";
     if (!string.IsNullOrEmpty(endpoint))
     {
       agent = new AzureOpenAIClient(new Uri(endpoint), new AzureCliCredential())
