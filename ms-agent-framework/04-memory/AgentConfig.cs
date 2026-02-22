@@ -1,4 +1,4 @@
-namespace BasicAgent;
+namespace Memory;
 
 public static class AgentConfig
 {
