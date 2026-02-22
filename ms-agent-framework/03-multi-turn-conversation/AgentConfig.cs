@@ -1,5 +1,3 @@
-using System;
-
 namespace MultiTurnConversation;
 
 public static class AgentConfig

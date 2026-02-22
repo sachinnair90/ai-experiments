@@ -1,5 +1,3 @@
-using System;
-
 namespace ToolUsage;
 
 public static class AgentConfig
